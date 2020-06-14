@@ -8,6 +8,8 @@ package com.linkedlist;
 public class LinkedList<T> {
 
 	private LinkedListNode<T> head;
+	
+	private LinkedListNode<T> tail;
 
 	public LinkedListNode<T> getHead() {
 		return head;
@@ -38,6 +40,17 @@ public class LinkedList<T> {
 			temp = temp.getNext();
 		}
 		System.out.println("NULL");
+	}
+	
+	public void addElement(T element){
+		LinkedListNode<T> node = new LinkedListNode<>(element); 
+		if(head == null){
+			head = node;
+			tail = node;
+		}else{
+			tail.setNext(node);
+			tail = node;
+		}
 	}
 
 }
