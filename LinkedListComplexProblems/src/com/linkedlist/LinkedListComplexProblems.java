@@ -33,6 +33,7 @@ import java.util.Stack;
  *    [1,2,2,3,5,6,8,8,10,15]
  *    
  *  7. Swap nodes in pair
+ *  
  *    IP - 1 -> 2 -> 3 -> 4 -> 5 -> NULL
  *    OP - 2 -> 1 -> 4 -> 3 -> 5 -> NULL 
  *    
