@@ -338,10 +338,5 @@ public class LinkedListComplexProblems {
     	list.setHead(head);
     	return list;
     }
-	
- 
-    
-	
-	
 
 }
