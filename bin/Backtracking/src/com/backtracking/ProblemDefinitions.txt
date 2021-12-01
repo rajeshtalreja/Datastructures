@@ -1,0 +1,15 @@
+1. Rat Maze Problem
+
+2. N Queen Problem
+
+3. Sudoku solver
+
+4. All permutations of a String
+
+5. Word Break Problem
+
+6. Print all paths from top left to bottom right of the matrix
+
+7. Palindrome Partitioning
+
+8.  
