@@ -89,6 +89,28 @@ public class DPProblems {
 		
 		System.out.println(maxProductSubArray_26(new int[]{2,-1,6,-5,-1}));
 		System.out.println(subsetSum_23(new int[]{1,2,5,7}, 20));
+		//System.out.println(longestCommonSubsequence_1("abcade", "axcbdy"));
+	}
+	
+	/**
+	 * 
+	 * @param s1
+	 * @param s2
+	 * @return
+	 */
+	public static int longestCommonSubsequence_1(String s1, String s2) {
+		
+		return longestCommonSubsequenceUtil(s1.toCharArray(), 0,s2.toCharArray(), 0);
+	}
+	
+	public static longestCommonSubsequenceUtil(char x[], int i, char y[], int j) {
+		if(i == x.length || j == y.length) {
+			return 0;
+		}
+		if(x[i] == y[j]) {
+			return longestCommonSubsequenceUtil(x, i+1,y, j+1);
+		}
+		return Math.max(longestCommonSubsequenceUtil(x, i,y, j+1), longestCommonSubsequenceUtil(x, i+1,y, j+1);)
 	}
 	
 	
