@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>Trie</module>
+  	<module>Backtracking</module>
   </modules>
 </project>
