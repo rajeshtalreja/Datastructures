@@ -1,0 +1,88 @@
+**
+ * 1. Longest Common Subsequence(LCS) - Length and print the LCS - Recursive and DP solution
+ 	  Leetcode problem level = Medium
+ 	  Link - https://leetcode.com/problems/longest-common-subsequence/
+ 	  Tutorial Link - https://www.youtube.com/watch?v=NPZn9jBrX8U&t=1143s
+ 
+ * 2. Longest Increasing Subsequence (LIS)
+ 	  Leetcode problem level = Medium
+ 	  Link-https://leetcode.com/problems/longest-increasing-subsequence/
+ 	  Variation of LIS = https://leetcode.com/problems/longest-increasing-subsequence-ii/
+ * 
+ * 3. Longest Decreasing Subsequence (LDS)
+ * 
+ * 4. Longest Bitonic Subsequence
+ * 
+ * 5. Longest Palindromic Subsequence(LPS)
+ * 
+ * 6. Longest Repeated Subsequence
+ * 
+ * 7. Longest Common Substring
+ * 
+ * 8. Shortest Common Supersequence
+ * 
+ * 7. LCS of three Strings
+ * 
+ * 8. Minimum jumps needed to reach end of the array( O(n2) and O(n) approach)
+ * 
+ * 9. Minimum insertions/deletions required to make string palindrome.
+ * 
+ * 10.Maximum length chain of pairs.
+ * 
+ * 11.Maximum length chain of pairs in any order.
+ * https://leetcode.com/problems/maximum-length-of-pair-chain/
+ * 
+ * 12.Building Bridge problem.
+ * 
+ * 13.Maximum Sum Increasing Subsequence.
+ * 
+ * 14.Cutting the rod to obtain maximum value.
+ * 
+ * 15.Maximum Sum Sub array problem(DP and Kadane's algorithm)
+ * 
+ * 16.Maximum sum subsequence so that no two elements are adjacent
+ * https://www.geeksforgeeks
+ * .org/maximum-sum-such-that-no-two-elements-are-adjacent/
+ * 
+ * 17.Maximum sum subsequence where no three are consecutive
+ * https://www.geeksforgeeks
+ * .org/maximum-subsequence-sum-such-that-no-three-are-consecutive/
+ * 
+ * 18.Longest subsequence such that difference between adjacents is one
+ * https://www
+ * .geeksforgeeks.org/longest-subsequence-such-that-difference-between
+ * -adjacents-is-one/
+ * 
+ * 19. Maximum length subsequence with difference between adjacent elements as
+ * either 0 or 1
+ * https://www.geeksforgeeks.org/maximum-length-subsequence-difference
+ * -adjacent-elements-either-0-1/
+ * 
+ * 20. Coin change problem.
+ * 
+ * 21. Minimum number of coins needed for making a sum.
+ * 
+ * 22. Edit Distance between two strings.
+ * 
+ * 23. Subset Sum Problem
+ * 
+ * 24.* Longest valid parenthesis( Length of longest valid parenthesis)
+ * https://leetcode.com/problems/longest-valid-parentheses/
+ * 
+ * 25. Given a 2D binary matrix filled with 0's and 1's, find the largest square
+ * containing only 1's and return its area.
+ * https://leetcode.com/problems/maximal-square/
+ * 
+ * 26. Maximum product subarray
+ * https://leetcode.com/problems/maximum-product-subarray/
+ * 
+ * 27. Longest Valid Parenthesis(Leetcode)
+ * 
+ * 28. Longest palindromic substring
+ * 
+ * 29. 
+ * 
+ * 
+ * 
+ * @author Rajesh Talreja
+ */
