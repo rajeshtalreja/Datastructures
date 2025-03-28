@@ -1,5 +1,8 @@
 package com.dp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 1. Longest Common Subsequence(LCS) - Length and print the LCS - Recursive and
  * DP solution
@@ -90,7 +93,44 @@ public class DPProblems {
 		System.out.println(maxProductSubArray_26(new int[]{2,-1,6,-5,-1}));
 		System.out.println(subsetSum_23(new int[]{1,2,5,7}, 20));
 		System.out.println(longestCommonSubsequence_1("abcade", "axcbdy"));
+		kSmallestPairs(new int[]{1,1,2}, new int[] {1,2,3}, 2);
 	}
+	
+	public static List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+        List<Pair> pairs = new ArrayList<>();
+        int i = 0;
+        int j = 0;
+        while(i < nums1.length && j < nums2.length && pairs.size() < k){
+            pairs.add(new Pair(nums1[i], nums2[j]));
+            int first[] = {0,1,1};
+            int second[] = {1,0,1};
+            int min = Integer.MAX_VALUE;
+            int newI = i;
+            int newJ = j;
+            for(int opt = 0;opt<3;opt++){
+                int x = i + first[opt];
+                int y = j + second[opt];
+                if(x < nums1.length && y < nums2.length){
+                    if(min > nums1[x] + nums2[y]){
+                        min = nums1[x] + nums2[y];
+                        newI = x;
+                        newJ = y;
+                    }
+                }
+            }
+            i = newI;
+            j = newJ;
+            
+        }
+        List<List<Integer>> toReturn = new ArrayList<>();
+        for(Pair p : pairs){
+            List<Integer> l = new ArrayList<>();
+            l.add(p.first);
+            l.add(p.second);
+            toReturn.add(l);
+        }
+        return toReturn;
+    }
 	
 	/**
 	 * 
@@ -239,4 +279,12 @@ public class DPProblems {
 		return result;
 	}
 
+}
+class Pair{
+    int first;
+    int second;
+    Pair(int x,int y){
+        this.first = x;
+        this.second = y;
+    }
 }

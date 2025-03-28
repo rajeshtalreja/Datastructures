@@ -8,7 +8,6 @@ public class Stack<T> {
 	Stack(int capcity){
 		arr = new Object[capcity];
 	}
-	
 	/**
 	 * 
 	 * @return
@@ -50,14 +49,15 @@ public class Stack<T> {
 	}
 	public static void main(String[] args) {
 		Stack<Integer> stack = new Stack<Integer>(5);
+		Stack<Double> stack1 = new Stack<Double>(5);
 		try {
 			stack.push(10);
 			stack.push(20);
 			stack.push(30);
 			Integer v = stack.pop();
 			System.out.println(v);
+			System.out.println(stack.peek());
 		} catch (StackOperationException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
